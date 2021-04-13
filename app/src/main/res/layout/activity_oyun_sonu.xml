@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".activities.OyunSonuActivity">
+
+    <ImageView
+        android:id="@+id/imgWinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_winner" />
+
+    <TextView
+        android:id="@+id/txtBilgiOyunSonu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/textOyunSonu"
+        android:textColor="@color/colorBilgiTxt"
+        android:textSize="@dimen/txt_bilgi_size"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgWinner" />
+
+    <Button
+        android:id="@+id/btnCikisOyunSonu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/btn_basic"
+        android:text="@string/btnCikisTxt"
+        android:textColor="@color/colorCikisTxt"
+        android:textSize="@dimen/btnbasic_txt_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnAnaSayfaOyunSonu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/btn_basic"
+        android:text="@string/btnAnasayfaTxt"
+        android:textColor="@color/colorBtnAnaSayfaTxt"
+        android:textSize="@dimen/btnbasic_txt_size"
+        app:layout_constraintBottom_toTopOf="@+id/btnCikisOyunSonu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtSoruSiraOyunSonu"
+        style="@style/EditTextStil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/edt_border"
+        app:layout_constraintBottom_toTopOf="@+id/btnAnaSayfaOyunSonu"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="SoruSira" />
+
+    <TextView
+        android:id="@+id/txtPuanOyunSonu"
+        style="@style/EditTextStil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/edt_border"
+        app:layout_constraintBottom_toTopOf="@+id/btnAnaSayfaOyunSonu"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Puan" />
+</androidx.constraintlayout.widget.ConstraintLayout>

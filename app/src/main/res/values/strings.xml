@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">H5190004_DeryaCayiroglu</string>
+    <string name="textHint">Oyuncu Adı Giriniz</string>
+    <string name="btn_ileri_txt">İLERİ</string>
+    <string name="btnCikisTxt">ÇIKIŞ</string>
+    <string name="btnAnasayfaTxt">ANASAYFAYA DÖN</string>
+    <string name="textOyunBitti">OYUN BİTTİ</string>
+    <string name="textOyunSonu">TEBRİKLER</string>
+    <string name="btnKategori1">UZAY</string>
+    <string name="btnKategori2">MATEMATİK</string>
+
+    <string name="ktg1Soru1">Ay"'"a Ayak Basan İlk İnsan Kimdir?</string>
+    <string name="ktg1Soru1Cevap1">Neil Armstrong</string>
+    <string name="ktg1Soru1Cevap2">Elon Musk</string>
+    <string name="ktg1Soru1Cevap3">Yuri Gagarin</string>
+
+    <string name="ktg1Soru2">Dünya"'"nın İçinde Bulunduğu Galaksinin Adı Nedir?</string>
+    <string name="ktg1Soru2Cevap1">Aquarius</string>
+    <string name="ktg1Soru2Cevap2">Cüce Ejderha</string>
+    <string name="ktg1Soru2Cevap3">Samanyolu</string>
+
+    <string name="ktg1Soru3">Merkür,Venüs,Dünya,Mars,Jupiter,Saturn,Uranüs,.....?</string>
+    <string name="ktg1Soru3Cevap1">Pluton</string>
+    <string name="ktg1Soru3Cevap2">Neptün</string>
+    <string name="ktg1Soru3Cevap3">Güneş</string>
+
+    <string name="ktg1Soru4">Kızıl Gezegen Olarak Bilinen Gezegen Hangisidir?</string>
+    <string name="ktg1Soru4Cevap1">Mars</string>
+    <string name="ktg1Soru4Cevap2">Neptün</string>
+    <string name="ktg1Soru4Cevap3">Uranüs</string>
+
+    <string name="ktg1Soru5">Uzaya Çıkan İlk İnsan Kimdir?</string>
+    <string name="ktg1Soru5Cevap1">Edwin Aldrin</string>
+    <string name="ktg1Soru5Cevap2">Stephen Hawking</string>
+    <string name="ktg1Soru5Cevap3">Yuri Gagarin</string>
+
+    <string name="ktg1Soru6">Ay"'"a İniş Yapan İlk Uzay Aracının Adı Nedir?</string>
+    <string name="ktg1Soru6Cevap1">Apollo 11</string>
+    <string name="ktg1Soru6Cevap2">Gemini</string>
+    <string name="ktg1Soru6Cevap3">Dragon</string>
+
+    <string name="ktg1Soru7">Kutup Yıldızı Hangi Takımyıldızında Bulunur?</string>
+    <string name="ktg1Soru7Cevap1">Orion</string>
+    <string name="ktg1Soru7Cevap2">Küçük Ayı</string>
+    <string name="ktg1Soru7Cevap3">Büyük Ayı</string>
+
+    <string name="ktg1Soru8">Güneş"'"e En Yakın Gezegen Hangisidir?</string>
+    <string name="ktg1Soru8Cevap1">Merkür</string>
+    <string name="ktg1Soru8Cevap2">Pluton</string>
+    <string name="ktg1Soru8Cevap3">Mars</string>
+
+    <string name="ktg1Soru9">Ay"'"ın Dünya ile Güneş Arasına Girme Olayı Nasıl Adlandırılır? </string>
+    <string name="ktg1Soru9Cevap1">Ay Tutulmas</string>
+    <string name="ktg1Soru9Cevap2">Güneş Tutulması</string>
+    <string name="ktg1Soru9Cevap3">Dolunay</string>
+
+    <string name="ktg1Soru10">Ulusal Havacılık ve Uzay Dairesi kısaltması nedir?</string>
+    <string name="ktg1Soru10Cevap1">Hubble</string>
+    <string name="ktg1Soru10Cevap2">Space X</string>
+    <string name="ktg1Soru10Cevap3">NASA</string>
+
+    <string name="ktg2Soru1">Aşağıdakilerden Hangisinin İşlem Önceliği Vardır?</string>
+    <string name="ktg2Soru1Cevap1">Parantez İçi</string>
+    <string name="ktg2Soru1Cevap2">Çarpma</string>
+    <string name="ktg2Soru1Cevap3">Toplama</string>
+
+    <string name="ktg2Soru2">2"'"nin Sıfırıncı Kuvveti Kaçtır?</string>
+    <string name="ktg2Soru2Cevap1">0</string>
+    <string name="ktg2Soru2Cevap2">2</string>
+    <string name="ktg2Soru2Cevap3">1</string>
+
+    <string name="ktg2Soru3">Bir Dik Üçgende Dik Açının Karşısındaki Kenara Ne Ad Verilir?</string>
+    <string name="ktg2Soru3Cevap1">Hipotenüs</string>
+    <string name="ktg2Soru3Cevap2">Pisagor</string>
+    <string name="ktg2Soru3Cevap3">Dik Kenar</string>
+
+    <string name="ktg2Soru4">Ölçüsü 360 Derece Olan Açıya Ne Ad Verilir?</string>
+    <string name="ktg2Soru4Cevap1">Geniş Açı</string>
+    <string name="ktg2Soru4Cevap2">Tam Açı</string>
+    <string name="ktg2Soru4Cevap3">Doğru Açı</string>
+
+    <string name="ktg2Soru5">Aşağıdakilerden Hangisi Bir Rakam Değildir?</string>
+    <string name="ktg2Soru5Cevap1">9</string>
+    <string name="ktg2Soru5Cevap2">0</string>
+    <string name="ktg2Soru5Cevap3">10</string>
+
+    <string name="ktg2Soru6">Aşağıdakilerden Hangisi Bir Asal Sayıdır?</string>
+    <string name="ktg2Soru6Cevap1">19</string>
+    <string name="ktg2Soru6Cevap2">51</string>
+    <string name="ktg2Soru6Cevap3">15</string>
+
+    <string name="ktg2Soru7">Üçgenin İç Açıları Toplamı Kaçtır?</string>
+    <string name="ktg2Soru7Cevap1">180</string>
+    <string name="ktg2Soru7Cevap2">360</string>
+    <string name="ktg2Soru7Cevap3">270</string>
+
+    <string name="ktg2Soru8">Aşağıdakilerden Hangisi Özel Üçgen Değildir?</string>
+    <string name="ktg2Soru8Cevap1">3-4-5</string>
+    <string name="ktg2Soru8Cevap2">5-12-13</string>
+    <string name="ktg2Soru8Cevap3">3-7-12</string>
+
+    <string name="ktg2Soru9">0! Kaça Eşittir?</string>
+    <string name="ktg2Soru9Cevap1">0</string>
+    <string name="ktg2Soru9Cevap2">1</string>
+    <string name="ktg2Soru9Cevap3">Tanımsız</string>
+
+    <string name="ktg2Soru10">4-7*0-4 İşleminin Sonucu Kaçtır?</string>
+    <string name="ktg2Soru10Cevap1">0</string>
+    <string name="ktg2Soru10Cevap2">-4</string>
+    <string name="ktg2Soru10Cevap3">-12</string>
+
+
+</resources>

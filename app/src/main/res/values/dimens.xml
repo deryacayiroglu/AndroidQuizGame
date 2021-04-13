@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btnbasic_txt_size">24sp</dimen>
+    <dimen name="edt_bg_size">25sp</dimen>
+    <dimen name="txt_oyuncu_size">30sp</dimen>
+    <dimen name="btn_kategori_size">30sp</dimen>
+    <dimen name="btn_cevap_size">24sp</dimen>
+    <dimen name="edt_kategori_size">30sp</dimen>
+    <dimen name="edt_soru_size">24sp</dimen>
+    <dimen name="txt_bilgi_size">30sp</dimen>
+</resources>

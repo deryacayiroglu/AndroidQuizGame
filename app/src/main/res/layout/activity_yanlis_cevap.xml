@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".activities.YanlisCevapActivity">
+
+    <ImageView
+        android:id="@+id/imgGameOver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_game_over" />
+
+    <TextView
+        android:id="@+id/txtSoruSiraYanlis"
+        style="@style/EditTextStil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/edt_border"
+        app:layout_constraintBottom_toTopOf="@+id/btnAnaSayfaYanlis"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="SoruSıra" />
+
+    <TextView
+        android:id="@+id/txtPuanYanlis"
+        style="@style/EditTextStil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/edt_border"
+        app:layout_constraintBottom_toTopOf="@+id/btnAnaSayfaYanlis"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Puan" />
+
+    <Button
+        android:id="@+id/btnAnaSayfaYanlis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/btn_basic"
+        android:text="@string/btnAnasayfaTxt"
+        android:textColor="@color/colorBtnAnaSayfaTxt"
+        android:textSize="@dimen/btnbasic_txt_size"
+        app:layout_constraintBottom_toTopOf="@+id/btnCikisYanlis"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="ANASAYFAYA DÖN" />
+
+    <Button
+        android:id="@+id/btnCikisYanlis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/btn_basic"
+        android:text="@string/btnCikisTxt"
+        android:textColor="@color/colorCikisTxt"
+        android:textSize="@dimen/btnbasic_txt_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="ÇIKIŞ" />
+
+    <TextView
+        android:id="@+id/txtOyunBitti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/textOyunBitti"
+        android:textColor="@color/colorBilgiTxt"
+        android:textSize="@dimen/txt_bilgi_size"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgGameOver"
+        tools:text="OYUN BİTTİ" />
+</androidx.constraintlayout.widget.ConstraintLayout>
