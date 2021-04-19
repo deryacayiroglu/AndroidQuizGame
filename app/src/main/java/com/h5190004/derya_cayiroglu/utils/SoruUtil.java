@@ -204,7 +204,7 @@ public class SoruUtil {
         sorularKat2.add(kat2Soru9);
         sorularKat2.add(kat2Soru10);
 
-        if(PrefUtil.getIntPref(context,Constants.PREF_KATEGORİ_ID)==Constants.KATEGORI1_ID){
+        if(PrefUtil.getIntPref(context,Constants.PREF_KATEGORI_ID)==Constants.KATEGORI1_ID){
             sorular = sorularKat1;
         }else {
             sorular = sorularKat2;

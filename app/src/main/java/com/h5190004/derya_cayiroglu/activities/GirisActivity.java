@@ -49,7 +49,7 @@ public class GirisActivity extends AppCompatActivity {
             );
 
             String oyuncuJson = ObjectUtil.oyuncuToJsonString(oyuncu);
-            PrefUtil.setStringPref(getApplicationContext(), Constants.PREF_OYUNCU_OBJESİ,oyuncuJson);
+            PrefUtil.setStringPref(getApplicationContext(), Constants.PREF_OYUNCU_OBJESI,oyuncuJson);
             startActivity(new Intent(GirisActivity.this,KategoriActivity.class));
             finish();
         }

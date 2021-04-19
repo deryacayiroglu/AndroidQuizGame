@@ -44,7 +44,7 @@ public class KategoriActivity extends AppCompatActivity implements View.OnClickL
     }
 
     private void prefOyuncuGetir(){
-        String oyuncuJson = PrefUtil.getStringPref(getApplicationContext(), Constants.PREF_OYUNCU_OBJESİ);
+        String oyuncuJson = PrefUtil.getStringPref(getApplicationContext(), Constants.PREF_OYUNCU_OBJESI);
         OyuncuModel oyuncu = ObjectUtil.jsonStringToOyuncu(oyuncuJson);
         txtOyuncuAd.setText("Hoşgeldin,  " + oyuncu.getAdi());
     }
@@ -71,8 +71,8 @@ public class KategoriActivity extends AppCompatActivity implements View.OnClickL
     }
 
     public void kategoriAdıTut(Button btnTiklananKategori , int kategoriId){
-        PrefUtil.setStringPref(getApplicationContext(),Constants.PREF_KATEGORİ_ADI,btnTiklananKategori.getText().toString());
-        PrefUtil.setIntPref(getApplicationContext(),Constants.PREF_KATEGORİ_ID,kategoriId);
+        PrefUtil.setStringPref(getApplicationContext(),Constants.PREF_KATEGORI_ADI,btnTiklananKategori.getText().toString());
+        PrefUtil.setIntPref(getApplicationContext(),Constants.PREF_KATEGORI_ID,kategoriId);
         startActivity(new Intent(KategoriActivity.this, SoruActivity.class));
         finish();
     }

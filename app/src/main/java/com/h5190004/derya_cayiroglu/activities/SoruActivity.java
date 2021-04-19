@@ -35,7 +35,7 @@ public class SoruActivity extends AppCompatActivity implements View.OnClickListe
     private void init(){
         soruSayısı = SoruUtil.soruSayisiGetir();
         txtKategori = findViewById(R.id.txtKategori);
-        txtKategori.setText(PrefUtil.getStringPref(getApplicationContext(), Constants.PREF_KATEGORİ_ADI));
+        txtKategori.setText(PrefUtil.getStringPref(getApplicationContext(), Constants.PREF_KATEGORI_ADI));
         txtPuan = findViewById(R.id.txtPuan);
         txtSoruSira = findViewById(R.id.txtSoruSira);
         txtSoru = findViewById(R.id.txtSoru);
